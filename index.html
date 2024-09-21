@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="mainContainer">
+        <header>
+            <h1>Employee Database Management</h1>
+            <button id="addBtn">Add Employee</button>
+        </header>
+        <div class="container">
+            <div id="left-cont">
+
+            </div>
+            <div id="right-cont">
+            </div>
+        </div>
+        <form class="addEmployeeForm">
+            <div class="field name">
+                <div class="left">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="FirstName">  
+                </div>
+                <div class="right margin">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName">
+                </div> 
+            </div>
+            <div class="field">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="field">
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age">
+            </div>
+            <div class="field">
+                <label for="mobile">Mobile Number</label>
+                <input type="number" name="contactNumber" id="mobile">
+            </div>
+            <div class="field">
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob" id="date">
+            </div>
+            <div class="submit">
+                <button class="submitBtn" type="submit" >Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
